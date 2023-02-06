@@ -266,7 +266,7 @@ galaxysim.meshVfx = new THREE.PointCloud();
 
         var started = false;
         THREE.DefaultLoadingManager.onProgress = function (item, loaded, total) {
-            var loadingMessage = `Notice: Nụ cười của cậu còn rực rỡ hơn hàng ngàn vì tinh tú ở đây :)) `;
+            var loadingMessage = `Notice: idolll là vì tinh tú siêu sáng hơn hàng ngàn tinh tú ở đây nữa:)) `;
             $("#loading_indicator .loading_text").text(loadingMessage);
             $("#loading_indicator .loading_bar").width(100*loaded/total + "%");
             if(loaded === total && !started) {
